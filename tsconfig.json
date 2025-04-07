@@ -4,8 +4,10 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false, //changed by me
-    "noImplicitAny": false,
+    "strict": false,  // Keeping strict mode off so all checks are relaxed
+    "noImplicitAny": false,  // Allow implicit 'any' types
+    "noUnusedLocals": false,  // Allow unused local variables
+    "noUnusedParameters": false,  // Allow unused function parameters
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
